@@ -1,0 +1,277 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 18, 2016, 4:58:42 PM
+    Author     : kusha
+*/
+html, body
+{
+    overflow-x:hidden;
+}
+#header a.logo 
+{
+    margin:0 auto;
+    text-align: center;
+    display: block;
+    border:0;
+    
+}
+
+#header a.logo1 
+{
+    margin:0 auto;
+    text-align: left;
+    display: block;
+    border:0;
+    
+}
+#header ul
+{
+  margin: 0;
+  padding: 0px;
+  text-align: center; 
+
+}
+ul
+{
+    display: block;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   
+  /*  -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start:  0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;*/
+}
+
+li
+{
+float: left;    
+padding-left: 110px;
+
+}
+li a
+{
+    display: bock;
+    font-family: Arial, Helvetica,sans-serif,cursive;
+    font-size: 21px;
+    height: 49px;
+    line-height: 49px;
+    padding:0px 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+}
+li.selected a{color: #0ba39c;}
+div
+{
+    display:block;
+}
+body{display:block;}
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 1;
+}
+
+ul, menu, dir {
+    display: block;
+    
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+#body #featured div h2 
+{
+    color: red;
+    display: inline-block;
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: normal;
+    margin: 0 0 18px;
+    padding: 23px 0px 20px;
+    text-transform: uppercase;
+  
+}
+#body #featured span
+{
+    padding: 12px 27px;
+    margin: 7px 0;
+    color:black;
+    display: inline-block;
+    font-family: cursive;
+      font-weight: bold;
+}
+#body #featured div
+{
+    left: 50%;
+    margin-left: -420px;
+    margin-top: -1px;
+    padding: 0 0 0 470px;
+    position: absolute;
+    top: 50%;
+    text-align: left;
+    width: 490px;
+}
+#body #featured div a
+{
+    //background: #0ba39c;
+    color:#0ba39c;
+    display: inline-block;
+    font-size: 20px;
+    margin: 15px 0 0;
+    padding: 23px 0px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration : none;
+    font-family: cursive;
+}
+
+#body ul li a img
+{
+    
+    display: block;
+    margin: 0;
+    padding: 0;
+    opacity: .8;
+    transition: 0.5s;
+}
+
+#body ul li a span
+{
+    color: #000;
+    display: block;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+#footer {
+    background: #252525;
+    margin: 0;
+    padding: 36px 0 42px;
+}
+#footer div ul
+{
+display: inline;
+margin: 0;
+overflow: hidden;
+
+width: 256px;
+
+}
+#footer div p
+{
+    font-size: 18px;
+    color: white;
+}
+#footer div ul li 
+{
+    float: right;
+    display: inline-block;
+    margin: 0px 10px;
+       padding-left: 0px;
+}
+
+#footer div ul li a 
+{
+    font-size: 18px;
+   color: white;
+ 
+}
+
+/*
+#footer div ul li #twitter {
+    background-position: 0 0;
+      
+    background-image: url(../images/twitter.jpg);
+    background-position-x: 0px;
+    background-position-y: 0px;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-indent: -99999px;
+  
+}*/
+#footer div ul li #facebook {
+    background-position: 0 0;
+}
+#footer div ul li #googleplus {
+    background-position: 0 0;
+}
+#footer div ul li #linkedin {
+    background-position: 0 0;
+}
+
+a#facebook, #twitter, #googleplus, #linkedin
+{
+    text-transform: uppercase;
+    
+    font-size: 12px;
+    display: inline;
+}
+
+#body h1 span
+{
+ 
+ display: inline-block;
+ padding: 15px 425px 12px;
+ font-family: fantasy;
+}
+
+#body form
+{
+margin: auto; 
+padding: 24px 0 0;
+width: 620px;
+text-align: center;
+}
+
+form
+{
+display: block;    
+}
+
+#body form input, #body form textarea
+{
+    border:2px solid black;
+    color: black;
+    font-family: cursive;
+    font-size: 15px;
+    font-weight: normal;
+    margin: 0 0 37px;
+    padding: 20px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 596px;
+}
+
+input, textarea, keygen, select, button
+{
+    
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    font: 12px cursive;
+}
+
